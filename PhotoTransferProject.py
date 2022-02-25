@@ -89,7 +89,7 @@ def selectDestinationFolder(years):
                 destinationFolders.append(input(f"Select the destination folder for {year}:"))
 
         elif divideByYear == "n":
-            destinationFolders = input("Select the destination folder:")
+            destinationFolders.append(input("Select the destination folder:"))
     else:
         destinationFolders.append(input("Select the destination folder:"))
 
